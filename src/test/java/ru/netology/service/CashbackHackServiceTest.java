@@ -24,7 +24,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldAdviceZeroWhenAmountEqualsBoundary() {
         CashbackHackService service = new CashbackHackService();
-        int actual = service.remain(900);
+        int actual = service.remain(1000);
         int expected = 0;
         assertEquals(expected, actual);
     }
